@@ -646,7 +646,7 @@ button {
   margin-left: 70px;
 }
 
-.ftr-soc-title {
+.ftr-title {
   margin: 0 0 20px;
 
   text-transform: uppercase;
@@ -666,6 +666,40 @@ button {
 .soc-link:hover,
 .soc-link:focus {
   background-color: var(--accent-color);
+}
+
+.ftr-subscribe {
+  margin-left: 93px;
+}
+
+.ftr-subsribe-block {
+  display: flex;
+}
+
+.ftr-subscribe .input-field {
+  padding: 15px;
+  width: 100%;
+  min-width: 358px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.ftr-subscribe .button {
+  position: relative;
+
+  margin-left: 12px;
+  min-width: 200px;
+}
+
+.icon-subs {
+  position: absolute;
+  bottom: 50%;
+  right: 28px;
+  transform: translateY(50%);
+  fill: var(--contrast-color);
 }
 
 /* ----------------------- */
