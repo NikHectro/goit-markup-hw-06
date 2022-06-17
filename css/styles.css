@@ -911,19 +911,26 @@ button {
   position: relative;
 }
 
-.agree {
+.checkbox {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
   align-items: baseline;
 }
 
-.agree .input-tag {
+.checkbox-field {
+}
+
+.checkbox .input-tag {
   font-size: 14px;
   line-height: 1.71;
 }
 
-.agree-link {
+.checkbox-link {
   text-decoration-line: underline;
   color: var(--accent-color);
+}
+
+.button.btn-send {
+  padding: 10px 55px;
 }
