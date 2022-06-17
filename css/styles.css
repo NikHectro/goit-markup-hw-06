@@ -812,7 +812,7 @@ button {
   border-radius: 4px;
 }
 
-.close {
+.modal-close-btn {
   position: absolute;
   top: 0;
   right: 0;
@@ -829,6 +829,16 @@ button {
   cursor: pointer;
 
   transform: scale(1);
+}
+
+.icon-close {
+  fill: #000000;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal .modal-close-btn:focus .icon-close,
+.modal .modal-close-btn:hover .icon-close {
+  fill: var(--accent-color);
 }
 
 .form {
